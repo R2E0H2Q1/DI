@@ -1,0 +1,22 @@
+*{
+    background-color: blue;
+}
+
+nav{
+    background-color: aqua;
+}
+
+li{
+    list-style: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer{
+    color: white;
+}
+a{
+    color: white;
+}
+

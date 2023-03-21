@@ -1,0 +1,68 @@
+*{
+    background-color: goldenrod;
+}
+
+table, th, tr, td{
+    border: 2px dotted;
+    text-align: center;
+    padding: 10px;
+    margin: 25px;
+}
+th{
+    background-color: aquamarine;
+    font-size: larger;
+    color: maroon;
+}
+.dv1d{
+    color: chartreuse;
+    border: 5px dotted black;
+    align-self: center;
+    padding-left: 140px;
+}
+
+.divfa {
+    display: inline-block;
+    width: 100px;
+    height: 200px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: blue;
+}
+
+.divfb {
+    display: inline-block;
+    width: 100px;
+    height: 200px;
+    padding: 5px;
+    border: 1px solid white;
+    background-color: white;
+}
+.divfc {
+    display: inline-block;
+    width: 100px;
+    height: 200px;
+    padding: 5px;
+    border: 1px solid red;
+    background-color: red;
+}
+
+.secondlidiv1{
+color: blue ; 
+}
+
+.upper{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.d2p1{
+    background-color: pink;
+    color: white;
+}
+.d3p1{
+    background-color: lightblue;
+    padding: 100px;
+    margin: 100px;
+    text-align: center;
+}
+
+

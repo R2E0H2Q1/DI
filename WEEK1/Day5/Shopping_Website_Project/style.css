@@ -1,0 +1,43 @@
+body {
+    background-image: url(BACKG.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    width: 98%;
+    position: fixed;
+    left: 20px;
+}
+i {
+    /*icon style*/
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    float: right;
+    padding: 5px;
+}
+
+a{
+    color: white;
+}
+
+img{
+        width: 100%;
+    }
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 1000px;
+    bottom: 0px;
+}

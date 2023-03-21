@@ -1,0 +1,39 @@
+body{
+    background-image: url(Backimg.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    border: 10px black;
+    background-color: black;
+    color: white;
+}
+
+.logo{
+    height: 50px;
+}
+
+li{
+    background-color: black ;
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    font-family: Arial;
+    padding: 10px;
+    float: right;
+    align-items: center;
+}
+
+h1{
+ font-family: 'moon dance';  
+ padding-top: 300px; 
+}
+
+p{
+    padding-top: 400px;
+    font-family: 'climate crisis variant0';
+    color: white;
+    justify-content: center;
+}

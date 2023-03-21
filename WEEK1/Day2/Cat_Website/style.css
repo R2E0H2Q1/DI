@@ -1,0 +1,35 @@
+*{
+    background-color: lightsalmon;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+img{
+    background-color: lightsalmon;
+    width: 800px; height: 400px;
+    align-self: center;
+    padding-left: 25%;
+    background-blend-mode: lighten;
+}
+.img1{
+    
+    align-items: center;
+}
+.tableh4{
+    color: red;
+    border: 3px solid red;
+    text-align: center;
+    padding: 10px;
+}
+
+table{
+    width: 100%;
+}
+th, td{
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+}

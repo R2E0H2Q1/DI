@@ -1,0 +1,72 @@
+body{
+    background-image: url(background.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.numb{
+    color: blueviolet;
+    font-size: 33px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+p{
+    color: black;
+    font-size: 15px;
+}
+.scndtner{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img{
+    height: 50px;
+    position: relative;
+    left: 40%;
+}
+.sqone{
+    background-color: white;
+    grid-area: 1 / 1 / 6 / 2;
+    padding: 50px;
+    margin: 50px;
+}
+.psq1{
+    background-color: salmon;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.sqtwo {
+    background-color: white;
+    grid-area: 3 / 2 / 9 / 2;
+    padding: 50px;
+    margin: 50px;
+}
+.psq2 {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.sqthree {
+    background-color: white;
+    grid-area: 2 / 3 / 8 / 3;
+    padding: 50px;
+    margin: 50px;
+}
+
+.psq3 {
+    background-color: teal;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+

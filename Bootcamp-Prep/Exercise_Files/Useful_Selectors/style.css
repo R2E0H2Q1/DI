@@ -1,0 +1,33 @@
+/* * {
+    color: blue;
+}
+
+footer p {
+    background-color: red;
+}
+
+h1+h4 {
+    background-color: blue;
+}
+
+ul>li {
+    background-color: blue;
+} */
+
+/* /* a [href="#"] {
+    background-color: blue;
+} */
+/* li:last-child {
+    background-color: blue;
+} */
+li:nth-child(2) {
+    background-color: teal;
+}
+
+button {
+    background-color: red;
+}
+
+button:hover {
+    background-color: blue;
+}

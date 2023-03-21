@@ -1,0 +1,58 @@
+.container{
+    background-color: white;
+    border: 5px solid black;
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: 1fr 4fr;
+    color: white;
+    margin: 10px;
+}
+
+.header{
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    grid-area: 1 / 1 / 2 / 4;
+    padding: 10px;
+}
+
+.hero{
+    background-color: violet;
+    text-align: center;
+    grid-area: 2 / 1 / 14 / 1;
+    padding: 20px;
+}
+.main{
+    background-color: goldenrod;
+    text-align: center;
+    grid-area: 2 / 2 / 24 / 4;
+}
+
+.side {
+    background-color: rgb(64, 128, 0);
+    text-align: center;
+    grid-area: 14 / 1 / 32 / 1;
+}
+.extra{
+    background-color: gray;
+    text-align: center;
+    grid-area: 24 / 2 / 32 / 4;
+}
+.related{
+    background-color: rgb(0, 128, 75);
+    text-align: center;
+    grid-area: 32 / 1 / 40 / 3;
+}
+
+.posts{
+    background-color: pink;
+    text-align: center;
+    grid-area: 32 / 3 / 40 /  4;
+}
+.footer {
+    background-color: orange;
+    text-align: center;
+    padding: 20px;
+    grid-area: 40 / 1 / 44 / 4;
+}

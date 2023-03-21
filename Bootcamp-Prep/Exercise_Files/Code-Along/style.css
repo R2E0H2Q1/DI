@@ -1,0 +1,35 @@
+/* Selector {
+    property: value;
+} */
+body {
+    background-image: url(checkerboard-gradient.jpg);
+    background-size: cover;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+    border: 5px solid rgba(0, 128, 62, 0.424);
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext {
+    border: 5px dashed green;
+}
+
+.active {
+    color: red;
+}
+
+#div1 {
+    background: rgba(0, 0, 255, 0.2);
+}
+
+#div2 {
+    background: rgba(255, 0, 0, 0.2);
+}
