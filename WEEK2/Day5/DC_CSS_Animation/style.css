@@ -1,0 +1,89 @@
+body{
+    border: solid green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    cursor: pointer;
+}
+
+p{
+    /*border: solid blue;*/
+    color: white;
+    margin-top: 20%;
+    text-align: center;
+    margin-bottom: 20%;
+}
+.fade{
+        width: 23%;
+        height: 20%;
+        margin: 10px;
+        background-color: darkgray;
+        animation-name: fade;
+        animation-duration: 4s;
+        border-radius: 10px;
+}
+@keyframes fade {
+    from {
+        opacity: 0.5;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+.color{
+    width: 23%;
+    height: 20%;
+    margin: 10px;
+    background-color: red;
+    animation-name: color;
+    animation-duration: 4s;
+    border-radius: 10px;
+}
+@keyframes color {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: yellow;
+    }
+}
+
+.shrink{
+        width: 23%;
+        height: 20%;
+        margin: 10px;
+        background-color: aqua;
+        animation-name: shrink;
+        animation-duration: 8s;
+        border-radius: 10px;
+}
+@keyframes shrink{
+    from{
+        transform: scale(1)
+    }
+    to{
+    transform: scale(0.8);
+}
+}
+.rotate{
+        width: 23%;
+        height: 20%;
+        margin: 10px;
+        background-color: yellow;
+        border-radius: 10px;
+        animation-name: rotate;
+        animation-duration: 8s;
+        
+}
+@keyframes rotate{
+   transform: rotate(180deg);
+}
+/*.grow{
+    width: 100%;
+}
+.pgrow{
+    text-align: center;
+}*/

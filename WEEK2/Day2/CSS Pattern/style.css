@@ -1,0 +1,122 @@
+.cp{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-left: 100px;
+}
+
+.ch1{
+    border: solid black 5px;
+    background-color: yellow;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    grid-area: 1 / 1 / 2 / 1;
+}
+.ch2 {
+    border: solid black 5px;
+    background-color: yellow;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    grid-area: 2 / 1 / 3 / 1;
+}
+
+.ch3 {
+    border: solid black 5px;
+    background-color: yellow;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    grid-area: 4 / 1 / 5 / 1;
+}
+.ch4 {
+    border: solid black 5px;
+    background-color: yellow;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    grid-area: 5 / 1 / 6 / 1;
+}
+.ch5 {
+    border: solid black 5px;
+    background-color: yellow;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    grid-area: 3 / 2 / 4 / 2;
+}
+.ch6 {
+    border: solid black 5px;
+    background-color: yellow;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    grid-area: 3 / 3 / 4 / 3;
+}
+.ch7 {
+    border: solid black 5px;
+    background-color: yellow;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    grid-area: 3 / 4 / 4 / 5;
+}
+.ch8 {
+    border: solid black 5px;
+    background-color: yellow;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    grid-area: 3 / 5 / 4 / 6;
+}
+.ch9 {
+    border: solid black 5px;
+    background-color: yellow;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    grid-area: 1 / 6 / 2 / 7;
+}
+
+.ch10 {
+    border: solid black 5px;
+    background-color: yellow;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    grid-area: 2 / 6 / 3 / 7;
+}
+
+.ch11 {
+    border: solid black 5px;
+    background-color: yellow;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    grid-area: 4 / 6 / 5 / 7;
+}
+
+.ch12 {
+    border: solid black 5px;
+    background-color: yellow;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    grid-area: 5 / 6 / 6 / 7;
+}
+
+
+
